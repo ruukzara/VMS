@@ -1,0 +1,33 @@
+.buttonClass {
+  height: 40px;
+  padding: 1px 10px;
+  font-size: 20px;
+  outline: none;
+  position: absolute;
+  right: 9px;
+  top: 61%;
+  z-index: 10;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.buttonClassValid {
+  height: 40px;
+  padding: 1px 10px;
+  font-size: 20px;
+  outline: none;
+  position: absolute;
+  right: 9px;
+  top: 20%;
+  z-index: 10;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.buttonClass:hover {
+  background-color: white;
+}
+
+.buttonClassValid:hover {
+  background-color: white;
+}

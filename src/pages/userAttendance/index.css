@@ -1,0 +1,32 @@
+.modeWrapper .modeButton:nth-of-type(3) {
+  display: none;
+}
+
+
+.dayCell {
+  pointer-events: none;
+}
+
+.calendarHeaderButtons button {
+  font-size: 16px; /* Adjust the desired text size */
+}
+
+.calendarHeaderButtons button:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+.calendarHeaderButtons button:first-child::after {
+  content: " ←"; /* Add left arrow symbol after the first button */
+  margin-left: 5px; /* Adjust the spacing between the text and arrow */
+}
+
+.calendarHeaderButtons button:last-child::before {
+  content: "→ "; /* Add right arrow symbol before the last button */
+  margin-right: 5px; /* Adjust the spacing between the arrow and text */
+}
+
+@media only screen and (max-width: 600px) {
+  .modeWrapper .modeButton {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+@import '~react-quill/dist/quill.snow.css'; // Import the default Quill styles
+
+.ql-editor {
+  font-family: var(--editor-font);
+}
+
+.ql-clipboard, .ql-snow .ql-tooltip {
+  font-family: var(--editor-tooltip-font);
+}
